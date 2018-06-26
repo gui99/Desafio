@@ -21,12 +21,12 @@ def logarNoFacebook(context):
 
     #login
     email = context.web.find_element_by_id("email")
-    email.send_keys("guilherme.7428@hotmail.com")
+    email.send_keys("")
     sleep(2)
     
     #senha
     senha = context.web.find_element_by_id("pass")
-    senha.send_keys("Guiih.99")
+    senha.send_keys("")
     sleep(5)
     
     #botao
@@ -47,7 +47,7 @@ def escreverPub(context):
     
     #edit
     edit = context.web.find_element_by_id("u_bu_c")
-    e_pub = context.web.find_element_by_link_text("Editar publicação")
+    e_pub = context.web.find_element_by_link_text("Editar publicaÃ§Ã£o")
     publicar = context.web.find_element_by_name("xhpc_message")
     publicar.send_keys("aabbbb")
     button = context.web.find_element_by_class_name("_1mf7 _4jy0 _4jy3 _4jy1 _51sy selected _42ft")    
